@@ -15,9 +15,13 @@
     "test-all": "npm run check-format && npm run check-lint && npm run check-types"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@supabase/supabase-js": "^1.35.6",
     "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.2",
+    "zustand": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "18.0.4",
